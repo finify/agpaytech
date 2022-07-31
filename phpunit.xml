@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php"
+    colors="true"
+    stopOnFailure="false">
+
+    <testsuites>
+        <testsuite name="Csvupload">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
