@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fininweu/agpaytech.ifeanyiizuegbu.com/
+    - /bin/cp -R core $DEPLOYPATH

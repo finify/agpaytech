@@ -5,9 +5,6 @@ require_once('config/config.php');
 require_once('config/lib/helpers/helpers.php');
 require __DIR__.'/vendor/autoload.php';
 session_start();
-testing
-
-still testing
 
 
 $url = isset($_SERVER['PATH_INFO']) ? explode('/', ltrim($_SERVER['PATH_INFO'], '/')) : [];
