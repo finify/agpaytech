@@ -1,5 +1,5 @@
 <?php
-
+echo 'hell0';
 class DB
 {
     private $check = "check";
